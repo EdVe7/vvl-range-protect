@@ -34,7 +34,7 @@ st.title("🎯 V.V.L. COMMANDER")
 # ==============================================================================
 # 1. SETUP & STYLE
 # ==============================================================================
-st.set_page_config(page_title="V.V.L. RANGE COMMANDER", layout="wide", page_icon="⛳")
+st.set_page_config(page_title="V.V.L. Commander", page_icon="logo.png", layout="centered")
 
 # Database File
 DB_FILE = 'vvl_training_db.csv'
@@ -418,4 +418,5 @@ with tab_analysi:
             else:
                 st.info("Nessun dato per il periodo selezionato.")
         else:
+
             st.warning(f"Nessuna sessione di {mode} registrata.")
